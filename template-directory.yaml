@@ -1,0 +1,11 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: templates-main-locator
+  description: this is a basic main templates locator.
+spec:
+  type: url
+  targets:
+    - https://github.com/TluwaniMS/backstage-template-directory/blob/main/template-directory.yaml
+    - https://github.com/TluwaniMS/backstage-template-directory-2/blob/main/template-directory.yaml
